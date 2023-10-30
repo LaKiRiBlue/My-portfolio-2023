@@ -176,19 +176,18 @@ const Gallery = styled.div`
   align-items: center;
 `;
 
-// const GalleryImage = styled.img`
-//   width: 200px;
-//   height: 200px;
-//   margin: 10px;
-//   border: 1px solid #000;
-//   box-sizing: border-box;
-//   cursor: pointer;
-//   transition: transform 0.5s;
+const GalleryImage = styled.img`
+  height: 600px;
+  margin: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.5s;
 
-//   &:hover {
-//     transform: scale(1.1);
-//   }
-// `;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
 
 
 
@@ -223,96 +222,96 @@ const Digital = () => {
   </div>
   <Gallery>
     <div className="gallery">
-      <img src={Image1} alt="Audrey2022" />
-      <img src={Image2} alt="az me povolaji k sobe" />
-      <img src={Image3} alt="KiRi Cal2023" />
-      <img src={Image4} alt="2 girls in Tokyo" />
-      <img src={Image5} alt="albert" />
-      <img src={Image6} alt="angel under" />
-      <img src={Image7} alt="apocalypse forest" />
-      <img src={Image8} alt="blue dragons" />
-      <img src={Image9} alt="BLUE flower" />
-      <img src={Image10} alt="Blue urban vector" />
-      <img src={Image11} alt="bros" />
-      <img src={Image12} alt="catwoman" />
-      <img src={Image13} alt="Certosa from Hell" />
-      <img src={Image14} alt="Charon 3 obalka by KiRi" />
-      <img src={Image15} alt="Chick" />
-      <img src={Image16} alt="chick killa1" />
-      <img src={Image17} alt="city sunset" />
-      <img src={Image18} alt="clockwork birdie" />
-      <img src={Image19} alt="Conan a kraska z Khitaie" />
-      <img src={Image20} alt="crow" />
-      <img src={Image21} alt="cyber goth girl" />
-      <img src={Image22} alt="cyberpunk street" />
-      <img src={Image23} alt="dolly" />
-      <img src={Image24} alt="double tree" />
-      <img src={Image25} alt="Dragons" />
-      <img src={Image26} alt="dreamgirl" />
-      <img src={Image27} alt="Edward" />
-      <img src={Image28} alt="error" />
-      <img src={Image29} alt="fire troll" />
-      <img src={Image30} alt="green universe" />
-      <img src={Image31} alt="hejkal" />
-      <img src={Image32} alt="her" />
-      <img src={Image33} alt="Hermina Cat" />
-      <img src={Image34} alt="jellyfish" />
-      <img src={Image35} alt="jill" />
-      <img src={Image36} alt="joker in tokyo" />
-      <img src={Image37} alt="JUPcover11" />
-      <img src={Image38} alt="jupiter14cover" />
-      <img src={Image39} alt="just a lil boy" />
-      <img src={Image40} alt="king of this wood" />
-      <img src={Image41} alt="kitty" />
-      <img src={Image42} alt="let it be light" />
-      <img src={Image43} alt="lollyB" />
-      <img src={Image44} alt="LOVEisLOVE" />
-      <img src={Image45} alt="Lucka1" />
-      <img src={Image46} alt="man of my dreams" />
-      <img src={Image47} alt="marais" />
-      <img src={Image48} alt="marais2" />
-      <img src={Image49} alt="Maria2" />
-      <img src={Image50} alt="Miguel Fractal" />
-      <img src={Image51} alt="mouse" />
-      <img src={Image52} alt="mummy" />
-      <img src={Image53} alt="my world" />
-      <img src={Image54} alt="Nasleduj bieleho kralika" />
-      <img src={Image55} alt="NEUROMANCER" />
-      <img src={Image56} alt="night sky" />
-      <img src={Image57} alt="Nula sa rovna jednej" />
-      <img src={Image58} alt="Obalka 1" />
-      <img src={Image59} alt="Obalka Bazina2" />
-      <img src={Image60} alt="obey" />
-      <img src={Image62} alt="octopi" />
-      <img src={Image63} alt="odtlacok-Kozak" />
-      <img src={Image64} alt="papa-legba" />
-      <img src={Image65} alt="pastel killer" />
-      <img src={Image66} alt="Pilipiuk ilustr.Obalka4" />
-      <img src={Image67} alt="post apo baby" />
-      <img src={Image68} alt="PTRSLV12345" />
-      <img src={Image69} alt="purple cat" />
-      <img src={Image70} alt="red postapo" />
-      <img src={Image71} alt="run sharky" />
-      <img src={Image72} alt="RUN!!!!!" />
-      <img src={Image73} alt="Sesivance 2 obalka od KiRi" />
-      <img src={Image74} alt="skyline7.3" />
-      <img src={Image75} alt="SLOVENSKE TEMNO final1" />
-      <img src={Image76} alt="space kitty1" />
-      <img src={Image77} alt="space monster" />
-      <img src={Image78} alt="Ti co prichadzaju v tme" />
-      <img src={Image79} alt="twins1" />
-      <img src={Image80} alt="type writerBrowFinal" />
-      <img src={Image81} alt="ukraine FINAL COVER" />
-      <img src={Image82} alt="Under-sea" />
-      <img src={Image83} alt="urban" />
-      <img src={Image84} alt="Vila" />
-      <img src={Image85} alt="violet trouble" />
-      <img src={Image86} alt="Violet1" />
-      <img src={Image87} alt="virtual" />
-      <img src={Image88} alt="We rather leave" />
-      <img src={Image89} alt="whale" />
-      <img src={Image90} alt="Z popola" />
-      <img src={Image91} alt="zilinska nemocnica" />
+      <GalleryImage img src={Image1} alt="Audrey2022" />
+      <GalleryImage img src={Image2} alt="az me povolaji k sobe" />
+      <GalleryImage img src={Image3} alt="KiRi Cal2023" />
+      <GalleryImage img src={Image4} alt="2 girls in Tokyo" />
+      <GalleryImage img src={Image5} alt="albert" />
+      <GalleryImage img src={Image6} alt="angel under" />
+      <GalleryImage img src={Image7} alt="apocalypse forest" />
+      <GalleryImage img src={Image8} alt="blue dragons" />
+      <GalleryImage img src={Image9} alt="BLUE flower" />
+      <GalleryImage img src={Image10} alt="Blue urban vector" />
+      <GalleryImage img src={Image11} alt="bros" />
+      <GalleryImage img src={Image12} alt="catwoman" />
+      <GalleryImage img src={Image13} alt="Certosa from Hell" />
+      <GalleryImage img src={Image14} alt="Charon 3 obalka by KiRi" />
+      <GalleryImage img src={Image15} alt="Chick" />
+      <GalleryImage img src={Image16} alt="chick killa1" />
+      <GalleryImage img src={Image17} alt="city sunset" />
+      <GalleryImage img src={Image18} alt="clockwork birdie" />
+      <GalleryImage img src={Image19} alt="Conan a kraska z Khitaie" />
+      <GalleryImage img src={Image20} alt="crow" />
+      <GalleryImage img src={Image21} alt="cyber goth girl" />
+      <GalleryImage img src={Image22} alt="cyberpunk street" />
+      <GalleryImage img src={Image23} alt="dolly" />
+      <GalleryImage img src={Image24} alt="double tree" />
+      <GalleryImage img src={Image25} alt="Dragons" />
+      <GalleryImage img src={Image26} alt="dreamgirl" />
+      <GalleryImage img src={Image27} alt="Edward" />
+      <GalleryImage img src={Image28} alt="error" />
+      <GalleryImage img src={Image29} alt="fire troll" />
+      <GalleryImage img src={Image30} alt="green universe" />
+      <GalleryImage img src={Image31} alt="hejkal" />
+      <GalleryImage img src={Image32} alt="her" />
+      <GalleryImage img src={Image33} alt="Hermina Cat" />
+      <GalleryImage img src={Image34} alt="jellyfish" />
+      <GalleryImage img src={Image35} alt="jill" />
+      <GalleryImage img src={Image36} alt="joker in tokyo" />
+      <GalleryImage img src={Image37} alt="JUPcover11" />
+      <GalleryImage img src={Image38} alt="jupiter14cover" />
+      <GalleryImage img src={Image39} alt="just a lil boy" />
+      <GalleryImage img src={Image40} alt="king of this wood" />
+      <GalleryImage img src={Image41} alt="kitty" />
+      <GalleryImage img src={Image42} alt="let it be light" />
+      <GalleryImage img src={Image43} alt="lollyB" />
+      <GalleryImage img src={Image44} alt="LOVEisLOVE" />
+      <GalleryImage img src={Image45} alt="Lucka1" />
+      <GalleryImage img src={Image46} alt="man of my dreams" />
+      <GalleryImage img src={Image47} alt="marais" />
+      <GalleryImage img src={Image48} alt="marais2" />
+      <GalleryImage img src={Image49} alt="Maria2" />
+      <GalleryImage img src={Image50} alt="Miguel Fractal" />
+      <GalleryImage img src={Image51} alt="mouse" />
+      <GalleryImage img src={Image52} alt="mummy" />
+      <GalleryImage img src={Image53} alt="my world" />
+      <GalleryImage img src={Image54} alt="Nasleduj bieleho kralika" />
+      <GalleryImage img src={Image55} alt="NEUROMANCER" />
+      <GalleryImage img src={Image56} alt="night sky" />
+      <GalleryImage img src={Image57} alt="Nula sa rovna jednej" />
+      <GalleryImage img src={Image58} alt="Obalka 1" />
+      <GalleryImage img src={Image59} alt="Obalka Bazina2" />
+      <GalleryImage img src={Image60} alt="obey" />
+      <GalleryImage img src={Image62} alt="octopi" />
+      <GalleryImage img src={Image63} alt="odtlacok-Kozak" />
+      <GalleryImage img src={Image64} alt="papa-legba" />
+      <GalleryImage img src={Image65} alt="pastel killer" />
+      <GalleryImage img src={Image66} alt="Pilipiuk ilustr.Obalka4" />
+      <GalleryImage img src={Image67} alt="post apo baby" />
+      <GalleryImage img src={Image68} alt="PTRSLV12345" />
+      <GalleryImage img src={Image69} alt="purple cat" />
+      <GalleryImage img src={Image70} alt="red postapo" />
+      <GalleryImage img src={Image71} alt="run sharky" />
+      <GalleryImage img src={Image72} alt="RUN!!!!!" />
+      <GalleryImage img src={Image73} alt="Sesivance 2 obalka od KiRi" />
+      <GalleryImage img src={Image74} alt="skyline7.3" />
+      <GalleryImage img src={Image75} alt="SLOVENSKE TEMNO final1" />
+      <GalleryImage img src={Image76} alt="space kitty1" />
+      <GalleryImage img src={Image77} alt="space monster" />
+      <GalleryImage img src={Image78} alt="Ti co prichadzaju v tme" />
+      <GalleryImage img src={Image79} alt="twins1" />
+      <GalleryImage img src={Image80} alt="type writerBrowFinal" />
+      <GalleryImage img src={Image81} alt="ukraine FINAL COVER" />
+      <GalleryImage img src={Image82} alt="Under-sea" />
+      <GalleryImage img src={Image83} alt="urban" />
+      <GalleryImage img src={Image84} alt="Vila" />
+      <GalleryImage img src={Image85} alt="violet trouble" />
+      <GalleryImage img src={Image86} alt="Violet1" />
+      <GalleryImage img src={Image87} alt="virtual" />
+      <GalleryImage img src={Image88} alt="We rather leave" />
+      <GalleryImage img src={Image89} alt="whale" />
+      <GalleryImage img src={Image90} alt="Z popola" />
+      <GalleryImage img src={Image91} alt="zilinska nemocnica" />
     </div>
 
   </Gallery>

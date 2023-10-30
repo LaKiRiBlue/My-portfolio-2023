@@ -151,19 +151,18 @@ const Gallery = styled.div`
   align-items: center;
 `;
 
-// const GalleryImage = styled.img`
-//   width: 200px;
-//   height: 200px;
-//   margin: 10px;
-//   border: 1px solid #000;
-//   box-sizing: border-box;
-//   cursor: pointer;
-//   transition: transform 0.5s;
+const GalleryImage = styled.img`
+  height: 600px;
+  margin: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.5s;
 
-//   &:hover {
-//     transform: scale(1.1);
-//   }
-// `;
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
 
 
 
@@ -199,71 +198,72 @@ const BeforeDigital = () => {
   <Gallery>
     
   <div className="gallery">
-    <img src={Image1} alt="alien" />
-    <img src={Image2} alt="autoportret" />
-    <img src={Image3} alt="autoportret2" />
-    <img src={Image4} alt="autoportretCB" />
-    <img src={Image5} alt="beyond repair" />
-    <img src={Image6} alt="bloody hit" />
-    <img src={Image7} alt="Cyber rage" />
-    <img src={Image8} alt="why body" />
-    <img src={Image9} alt="DSC02573" />
-    <img src={Image10} alt="DSCN0805" />
-    <img src={Image11} alt="fight till end" />
-    <img src={Image12} alt="FrankYello" />
-    <img src={Image13} alt="future city" />
-    <img src={Image14} alt="f-witcher-preliv-v2" />
-    <img src={Image15} alt="gatpar0001" />
-    <img src={Image16} alt="hladny tovar HD" />
-    <img src={Image17} alt="I will always love your head" />
-    <img src={Image18} alt="IMG_0454" />
-    <img src={Image19} alt="Janosik2011" />
-    <img src={Image20} alt="KamilaCyber" />
-    <img src={Image21} alt="KamilaFinal" />
-    <img src={Image22} alt="kvet" />
-    <img src={Image23} alt="killer" />
-    <img src={Image24} alt="KyberCislo14" />
-    <img src={Image25} alt="let the music in" />
-    <img src={Image26} alt="levia final" />
-    <img src={Image27} alt="Levia hiding" />
-    <img src={Image28} alt="Levia" />
-    <img src={Image29} alt="BadHorse" />
-    <img src={Image30} alt="memoryRaceFinal" />
-    <img src={Image31} alt="mrtva stetka" />
-    <img src={Image32} alt="Nelly" />
-    <img src={Image33} alt="binka" />
-    <img src={Image34} alt="No Future No Hope" />
-    <img src={Image35} alt="NokCityWarrior1" />
-    <img src={Image36} alt="obalka_vyssiezaujmy" />
-    <img src={Image37} alt="pilipiuk" />
-    <img src={Image38} alt="rage" />
-    <img src={Image39} alt="reiki tree" />
-    <img src={Image40} alt="Reikiiii" />
-    <img src={Image41} alt="retro music" />
-    <img src={Image42} alt="Scifi-head" />
-    <img src={Image43} alt="Scream" />
-    <img src={Image44} alt="Scream2" />
-    <img src={Image45} alt="shroom" />
-    <img src={Image46} alt="Slabej-Droppova" />
-    <img src={Image47} alt="smrtakBLUE" />
-    <img src={Image48} alt="steamMRS.final" />
-    <img src={Image49} alt="steamTime" />
-    <img src={Image50} alt="stena detail" />
-    <img src={Image51} alt="stena" />
-    <img src={Image52} alt="Strato" />
-    <img src={Image53} alt="Toko1" />
-    <img src={Image54} alt="two" />
-    <img src={Image55} alt="valkyrie" />
-    <img src={Image56} alt="WIN version2018" />
-    <img src={Image57} alt="wonder glass" />
-    <img src={Image58} alt="zentangle1" />
-    <img src={Image59} alt="zina the warior" />
-    <img src={Image60} alt="Zina" />
-    <img src={Image61} alt="ZombieWoman" />
-    <img src={Image62} alt="Zotzilaah" />
-    <img src={Image63} alt="ZuzBlood1" />
-    <img src={Image64} alt="ZuzWildBlue" />
-    <img src={Image65} alt="zveroclovek" />
+    
+    <GalleryImage img src={Image1} alt="alien" />
+    <GalleryImage img src={Image2} alt="autoportret" />
+    <GalleryImage img src={Image3} alt="autoportret2" />
+    <GalleryImage img src={Image4} alt="autoportretCB" />
+    <GalleryImage img src={Image5} alt="beyond repair" />
+    <GalleryImage img src={Image6} alt="bloody hit" />
+    <GalleryImage img src={Image7} alt="Cyber rage" />
+    <GalleryImage img src={Image8} alt="why body" />
+    <GalleryImage img src={Image9} alt="DSC02573" />
+    <GalleryImage img src={Image10} alt="DSCN0805" />
+    <GalleryImage img src={Image11} alt="fight till end" />
+    <GalleryImage img src={Image12} alt="FrankYello" />
+    <GalleryImage img src={Image13} alt="future city" />
+    <GalleryImage img src={Image14} alt="f-witcher-preliv-v2" />
+    <GalleryImage img src={Image15} alt="gatpar0001" />
+    <GalleryImage img src={Image16} alt="hladny tovar HD" />
+    <GalleryImage img src={Image17} alt="I will always love your head" />
+    <GalleryImage img src={Image18} alt="IMG_0454" />
+    <GalleryImage img src={Image19} alt="Janosik2011" />
+    <GalleryImage img src={Image20} alt="KamilaCyber" />
+    <GalleryImage img src={Image21} alt="KamilaFinal" />
+    <GalleryImage img src={Image22} alt="kvet" />
+    <GalleryImage img src={Image23} alt="killer" />
+    <GalleryImage img src={Image24} alt="KyberCislo14" />
+    <GalleryImage img src={Image25} alt="let the music in" />
+    <GalleryImage img src={Image26} alt="levia final" />
+    <GalleryImage img src={Image27} alt="Levia hiding" />
+    <GalleryImage img src={Image28} alt="Levia" />
+    <GalleryImage img src={Image29} alt="BadHorse" />
+    <GalleryImage img src={Image30} alt="memoryRaceFinal" />
+    <GalleryImage img src={Image31} alt="mrtva stetka" />
+    <GalleryImage img src={Image32} alt="Nelly" />
+    <GalleryImage img src={Image33} alt="binka" />
+    <GalleryImage img src={Image34} alt="No Future No Hope" />
+    <GalleryImage img src={Image35} alt="NokCityWarrior1" />
+    <GalleryImage img src={Image36} alt="obalka_vyssiezaujmy" />
+    <GalleryImage img src={Image37} alt="pilipiuk" />
+    <GalleryImage img src={Image38} alt="rage" />
+    <GalleryImage img src={Image39} alt="reiki tree" />
+    <GalleryImage img src={Image40} alt="Reikiiii" />
+    <GalleryImage img src={Image41} alt="retro music" />
+    <GalleryImage img src={Image42} alt="Scifi-head" />
+    <GalleryImage img src={Image43} alt="Scream" />
+    <GalleryImage img src={Image44} alt="Scream2" />
+    <GalleryImage img src={Image45} alt="shroom" />
+    <GalleryImage img src={Image46} alt="Slabej-Droppova" />
+    <GalleryImage img src={Image47} alt="smrtakBLUE" />
+    <GalleryImage img src={Image48} alt="steamMRS.final" />
+    <GalleryImage img src={Image49} alt="steamTime" />
+    <GalleryImage img src={Image50} alt="stena detail" />
+    <GalleryImage img src={Image51} alt="stena" />
+    <GalleryImage img src={Image52} alt="Strato" />
+    <GalleryImage img src={Image53} alt="Toko1" />
+    <GalleryImage img src={Image54} alt="two" />
+    <GalleryImage img src={Image55} alt="valkyrie" />
+    <GalleryImage img src={Image56} alt="WIN version2018" />
+    <GalleryImage img src={Image57} alt="wonder glass" />
+    <GalleryImage img src={Image58} alt="zentangle1" />
+    <GalleryImage img src={Image59} alt="zina the warior" />
+    <GalleryImage img src={Image60} alt="Zina" />
+    <GalleryImage img src={Image61} alt="ZombieWoman" />
+    <GalleryImage img src={Image62} alt="Zotzilaah" />
+    <GalleryImage img src={Image63} alt="ZuzBlood1" />
+    <GalleryImage img src={Image64} alt="ZuzWildBlue" />
+    <GalleryImage img src={Image65} alt="zveroclovek" />
 
   </div>
   </Gallery>
