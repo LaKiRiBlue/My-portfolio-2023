@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import myselfRED from './images/myselfRED.jpg';
-import BeforeDigital from './BeforeDigital';
+// import BeforeDigital from './BeforeDigital';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Digital from './Digital';
-import FrontendProjects from './FrontendProjects';
+// import Digital from './Digital';
+// import FrontendProjects from './FrontendProjects';
 
 
 // Your styled components for the parallax container
