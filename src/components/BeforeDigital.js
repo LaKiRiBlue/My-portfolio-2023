@@ -151,19 +151,19 @@ const Gallery = styled.div`
   align-items: center;
 `;
 
-const GalleryImage = styled.img`
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: transform 0.5s;
+// const GalleryImage = styled.img`
+//   width: 200px;
+//   height: 200px;
+//   margin: 10px;
+//   border: 1px solid #000;
+//   box-sizing: border-box;
+//   cursor: pointer;
+//   transition: transform 0.5s;
 
-  &:hover {
-    transform: scale(1.1);
-  }
-`;
+//   &:hover {
+//     transform: scale(1.1);
+//   }
+// `;
 
 
 
