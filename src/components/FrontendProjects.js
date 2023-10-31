@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import Image1 from './images/Whistleblower.png';
 
 const BurgerMenuIcon = styled.div`
   position: fixed;
@@ -78,6 +79,30 @@ const MainContainer = styled.div`
     }
 }
 `;
+const Images = styled.img`
+  width: 800px;
+  height: 440px;
+  margin: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+`;
+const StyledLink = styled.a`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+`;
 
 
 
@@ -104,16 +129,27 @@ const FrontendProjects = () => {
         {/* Add more menu items as needed */}
       </Menu>
       <MainContainer>
-  <div>
-    <h1> Frontend Projects</h1>
-    <p>
-      In 2023, I decided to change my life and become a Frontend Developer/UX/UI Designer. 
-      I started to learn HTML, CSS, JavaScript, React, and other technologies. 
-      I am still learning and I am looking for a job as a Frontend Developer/UX/UI Designer.
-    </p>
-  </div>
-</MainContainer>
-
+        <div>
+          <h1> Frontend Projects</h1>
+          <p>
+            In 2023, I decided to change my life and become a Frontend Developer/UX/UI Designer. <br /> 
+            I started to learn HTML, CSS, JavaScript, React, and other technologies. <br /> 
+            I am still learning and I am looking for a job as a Frontend Developer/UX/UI Designer. <br />
+            <br />
+            Below you can find some of my projects.
+          </p>
+        </div>
+        <div className="projects">
+          <Images src={Image1} alt="Whistleblower" />
+          <div className="project-info">
+            <p>
+              Whistleblower is a web application that allows users to report
+              corruption and other crimes. The application is built with Figma + React.js.
+            </p>
+            <StyledLink href="https://whistle-blower-frontend.vercel.app" target="_blank">See project</StyledLink>
+          </div>  
+        </div>
+      </MainContainer>
     </>
   );
 };
